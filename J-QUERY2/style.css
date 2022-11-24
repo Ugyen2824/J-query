@@ -1,0 +1,251 @@
+body{
+    background-image: linear-gradient(rgb(243, 8, 8),rgb(86, 244, 19));
+  box-shadow: 5px 5px 6px 7px blue;
+}
+ /* ..............................................................first body section .............................................................................. */
+.body{
+    background-image: linear-gradient(rgb(247, 139, 7),yellow);
+    float: right;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body h1{
+  display: flex;
+  justify-content: center;
+    position: relative;
+     animation-name: mama;
+     animation-duration: 7s;
+     animation-direction:alternate;
+     animation-iteration-count: infinite;
+  }
+ 
+ @keyframes mama{
+     from{ transform: tanslateX(3vw);}
+     to{ transform: translateX(50vw);}
+ }
+ 
+   /* ......................................................... second section ............................................................................ */
+
+#second{
+    background-image: url("115446580.jpg");
+    box-shadow: 5PX 5PX 7PX 8PX blue;
+
+}
+.about h1{
+  display: flex;
+  justify-content: center;
+}
+
+#read{
+  color: rgb(245, 241, 241);
+}
+
+#k-para{
+  color: rgb(15, 16, 16);
+  font-size: larger;
+  font-family: monospace;
+  background-image: url("5d936f4dece46b0d54376fc5b8b8c3be.gif");
+}
+
+#third{
+    background-image: linear-gradient(red,black);
+    color: white;
+    margin: 150px 10px 10px 10px;
+    
+}
+#qq, #tt {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(12, 239, 62);
+    color: white;
+    border: solid 1px rgb(193, 233, 14);
+    border-radius: 3px;
+  }
+  
+  #tt{
+    padding: 50px;
+    display: none;
+  }
+  #get{
+    background-image: linear-gradient(lightblue,pink);
+  }
+  .important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  
+  .blue {
+    color: blue;
+  }
+  #div2{
+    background-color: aqua;
+  }
+  #div1 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
+  .h17{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-
+  }
+  #run{
+    background-image:url("4181007-HSC00001-7.jpg");
+  }
+  #rerab1 button {
+    width: 250px;
+     border: none;
+     height: 30px;
+     border-radius: 20px;
+     background: dodgerblue;
+     color: #ffffff;
+     font-weight: bold;
+ }
+
+ #rerab2 button {
+  width: 1000px;
+   border: none;
+   height: 50px;
+   border-radius: 20px;
+   background: rgb(231, 234, 238);
+   color: #090909;
+   font-weight: bold;
+   font-size: 30px;
+}
+.stop {
+  width: 250px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: dodgerblue;
+   color: #ffffff;
+   font-weight: bold;
+}
+.move{
+  width: 250px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: dodgerblue;
+   color: #ffffff;
+   font-weight: bold;
+}
+#ee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.photo{
+  margin-bottom: 200px;
+}
+#rerab4 button {
+  width: 1000px;
+   border: none;
+   height: 50px;
+   border-radius: 20px;
+   background: rgb(233, 233, 12);
+   color: #090909;
+   font-weight: bold;
+   font-size: 30px;
+}
+#rerab3{
+ background-image: url("beautiful-painting-ceiling-inside-wall-chain-bridge-paro-bhutan-94292241.jpg");
+ color: #ffffff;
+ margin: 300px 10px 10px 10px;
+}
+#btn1{
+  width: 250px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: dodgerblue;
+   color: #ffffff;
+   font-weight: bold;
+}
+#btn2{
+  width: 250px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: dodgerblue;
+   color: #ffffff;
+   font-weight: bold;
+}
+#lo1{
+  width: 100px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: rgb(176, 238, 19);
+   color: #d22828;
+   font-weight: bold;
+}
+#lo2{
+  width: 100px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: rgb(180, 248, 8);
+   color: #d22828;
+   font-weight: bold;
+}
+#lo3{
+  width: 100px;
+   border: none;
+   height: 30px;
+   border-radius: 20px;
+   background: rgb(174, 255, 12);
+   color: #d22828;
+   font-weight: bold;
+}
+#after button {
+  width: 100px;
+   border: none;
+   height: 50px;
+   border-radius: 20px;
+   background: rgb(15, 231, 40);
+   color: #090909;
+   font-weight: bold;
+  }
+  #remove button {
+    width: 100px;
+     border: none;
+     height: 50px;
+     border-radius: 20px;
+     background: rgb(127, 175, 239);
+     color: #090909;
+     font-weight: bold;
+    }
+    #addcss button {
+    
+      width: 100px;
+       border: none;
+       height: 50px;
+       border-radius: 20px;
+       background: rgb(247, 175, 6);
+       color: #090909;
+       font-weight: bold;
+      }
+
+ 
+  /* .....................................................................backgroung image part............................................... */
+  #after{
+    background-image: url("images.jpg");
+  
+  }
+  #remove{
+    background-image: url("images\ \(1\).jpg");
+  }
+  #addcss{
+    background-image: url("colorful-chinese-painting-ceiling-22209166.jpg");
+  }
